@@ -1,6 +1,6 @@
 <?php
 // Connecting, selecting database
-$dbconn = pg_connect("host=localhost dbname=postgres user=postgres password=123qwe");
+$dbconn = pg_connect("host=ec2-18-215-8-186.compute-1.amazonaws.com dbname=deuvp2rhk0qqne user=etwobxbazzsyzv password=e533543352eb48ef8570e20e053dcc70ac4e4b26eac13c4c584ca8528c9feabe");
 
 // Performing SQL query
 $query = 'SELECT * FROM acc';
