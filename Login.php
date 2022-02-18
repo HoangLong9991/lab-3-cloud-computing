@@ -1,4 +1,10 @@
-
+<?php
+    if($_SERVER["METHOD"]=="POST")
+    {
+        $uname = $_POST["username"];
+        $pwd = $_POST["password"]
+    }
+?>
 <html lang="en">
 <head>
 <meta charset = "UTF-8">
