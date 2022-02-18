@@ -1,9 +1,3 @@
-<?php
-if ($_SERVER["REQUEST_METHOD"]=="POST")
-{
-$uname = $_POST["username"];
-$pwd = $_POST["password"]
-}
 
 <html lang="en">
 <head>
